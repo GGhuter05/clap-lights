@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="q*D=4x+RkzK5uF[m.dQ5">lightson</variable></variables><block type="pxt-on-start" id="zzx?^vGDJUeK;D9iju*," x="0" y="0"/><block type="device_forever" id="{~fWTw6}9Gl:s#396r3P" x="205" y="0"/><block type="input_on_sound" id="9v?3BH_U1Vy,ds)D0Y}c" x="369" y="104"><field name="sound">DetectedSound.Loud</field><statement name="HANDLER"><block type="variables_set" id="?!!@%285]Yw8:lxLr:Iy"><field name="VAR" id="q*D=4x+RkzK5uF[m.dQ5">lightson</field><value name="VALUE"><shadow type="math_number" disabled="true"><field name="NUM">0</field></shadow><block type="logic_negate" id="V0cPyeI$js0$tGs}B^q:"><value name="BOOL"><block type="variables_get" id="^s2#6$82smeg$ft4;4:["><field name="VAR" id="q*D=4x+RkzK5uF[m.dQ5">lightson</field></block></value></block></value><next><block type="controls_if" id="1p_f@M.M1@PH}n#.bL],"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="variables_get" id="KJ+#bC=(ef,i|{bsSJJ0"><field name="VAR" id="q*D=4x+RkzK5uF[m.dQ5">lightson</field></block></value><statement name="DO0"><block type="device_show_leds" id="Bt0.nSvMaDJTG{d@No33"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="gdeq%y8o!x#XwhA]St`x"/></statement></block></next></block></statement></block></xml>
